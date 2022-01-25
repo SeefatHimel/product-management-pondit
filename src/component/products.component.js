@@ -14,9 +14,9 @@ const Products = () => {
     return (
         <>
             <h1>Hello</h1>
-            <div style={{ margin: "auto" }}>
+            <div style={{ marginLeft: "30%" , textAlign : 'center' , padding : '30px'}}>
                 {products.map((product) => (
-                    <Product
+                    <Product  
                         title={product.title}
                         category={product.category}
                         image={product.image}
